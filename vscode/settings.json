@@ -22,9 +22,13 @@
             100,
         ],
     },
-    "java.semanticHighlighting.enabled": true,
-    "java.configuration.checkProjectSettingsExclusions": false,
-    "extensions.ignoreRecommendations": false,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "editor.minimap.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {"foreground": "#5E81AC"},
+            }
+        ]
+    }
 }
