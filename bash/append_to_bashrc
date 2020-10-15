@@ -1,0 +1,10 @@
+
+# Bash, the way I like it
+if [ -f ~/.abashed ]; then
+    . ~/.abashed
+fi
+
+# Alias definitions.
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
