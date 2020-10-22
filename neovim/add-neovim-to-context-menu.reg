@@ -19,4 +19,4 @@ Windows Registry Editor Version 5.00
 "Icon"="C:\\Program Files\\Neovim\\bin\\nvim-qt.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\nvim-qt\command]
-@="\"C:\\Program Files\\Neovim\\bin\\nvim-qt.exe\" \"%1\""
+@="\"C:\\Program Files\\Neovim\\bin\\nvim-qt.exe\" ."
