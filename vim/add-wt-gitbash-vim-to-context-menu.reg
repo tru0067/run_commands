@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\vim]
+@="Edit with Vim"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\vim-256.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\vim\command]
+@="wt -p Vim -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\shell\vim]
+@="Edit with Vim"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\vim-256.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\vim\command]
+@="wt -p Vim -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vim]
+@="Edit with Vim"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\vim-256.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vim\command]
+@="wt -p Vim -d %v"
