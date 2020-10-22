@@ -26,6 +26,7 @@ set cmdheight=2                        " Show two lines for the command line
 set smartcase                          " Search only case sensitive if mixed case has been entered
 set incsearch                          " Incremental search
 " Bindings
+map Y y$
 let mapleader=" "
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
