@@ -1,0 +1,1 @@
+C:/Users/Admin/run_commands/vim/.vim/colors/dalek.vim
