@@ -17,7 +17,6 @@ set relativenumber                     " Show relative line numbers
 set scrolloff=8                        " Keep 8 lines on screen while scrolling
 set nowrap                             " Do not visually wrap long lines
 set colorcolumn=80                     " Put a 80 character column line
-highlight ColorColumn ctermbg=8        " Color that column line
 " Command line
 set showmode                           " Show the current mode
 set laststatus=2                       " Always show the status line
