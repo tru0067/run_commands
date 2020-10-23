@@ -15,6 +15,7 @@ hi FoldColumn   ctermfg=4  ctermbg=8  guifg=#5E81AC guibg=#444444
 hi Folded       ctermfg=4  ctermbg=8  guifg=#5E81AC guibg=#444444
 hi IncSearch                                                      cterm=reverse gui=reverse
 hi LineNr       ctermfg=3             guifg=#81A1C1
+hi MatchParen   ctermfg=4             guifg=#5E81AC
 hi ModeMsg                                                        cterm=bold gui=bold
 hi MoreMsg      ctermfg=2             guifg=#00AF60
 hi NonText      ctermfg=12            guifg=#0061D7
