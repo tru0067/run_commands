@@ -45,6 +45,7 @@ nnoremap <silent> <leader>= :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
 " TEMPORARY COLOR DEBUGGER
 nnoremap <leader>c :execute 'hi' synIDattr(synID(line("."), col("."), 1), "name")<CR>
+nnoremap <leader>rc :source ~/.vimrc<CR>
 " File explorer
 let g:netrw_browse_split=2             " Open from netrw in new vsplit
 let g:netrw_banner=0                   " Don't show netrw banner (toggle with I)
