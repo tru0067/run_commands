@@ -1,5 +1,7 @@
 hi clear
 let g:colors_name = "dalek"
+set background=dark
+hi Normal       ctermfg=15 ctermbg=0  guifg=#FFFFFF guibg=#1C1C1C
 " Note: we never set 'term' because the defaults for B&W terminals are OK
 hi ColorColumn             ctermbg=8                guibg=#444444
 hi CursorLineNR ctermfg=3             guifg=#81A1C1
@@ -32,8 +34,8 @@ hi WildMenu     ctermfg=0  ctermbg=3  guifg=#1C1C1C guibg=#81A1C1
 hi Comment      ctermfg=2             guifg=#00AF60
 hi Constant     ctermfg=2             guifg=#00AF60
 hi Identifier   ctermfg=6             guifg=#005F87
-hi PreProc      ctermfg=5             guifg=#6000AF
-hi Special      ctermfg=9             guifg=#AF0000
+hi PreProc      ctermfg=5             guifg=#00AF60
+hi Special      ctermfg=9             guifg=#6000AF
 hi Statement    ctermfg=4             guifg=#5E81AC            cterm=bold 
 hi Type	        ctermfg=4             guifg=#5E81AC
 hi Label        ctermfg=4             guifg=#5E81AC
