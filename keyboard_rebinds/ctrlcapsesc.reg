@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; 00,00,00,00,\ header version (always 00000000)
+; 00,00,00,00,\ header flags (always 00000000)
+; 04,00,00,00,\ number of entries (including null terminator)
+; 1d,00,3a,00,\ Send LEFT CTRL (0x1d) when pressing CAPS LOCK (0x3a)
+; 01,00,1d,00,\ Send ESCAPE    (0x01) when pressing LEFT CTRL (0x1d)
+; 3a,00,01,00,\ Send CAPS LOCK (0x3a) when pressing ESCAPE    (0x01)
+; 00,00,00,00   null terminator
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,\
+                   00,00,00,00,\
+                   04,00,00,00,\
+                   1d,00,3a,00,\
+                   01,00,1d,00,\
+                   3a,00,01,00,\
+                   00,00,00,00

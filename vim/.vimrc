@@ -30,9 +30,11 @@ set laststatus=2                       " Always show the status line
 set showcmd                            " Show (partial) commands
 set cmdheight=2                        " Show two lines for the command line
 " Command behaviour
+" set wildmenu                           " Show completion options in the status bar
 set wildmode=longest,list              " Comlete longest matching string, then show available matches
 set smartcase                          " Search only case sensitive if mixed case has been entered
 set incsearch                          " Incremental search
+set hidden                             " Allow windows to be closed without saving them
 " Bindings
 map Y y$                               " Y yanks to end of line (consistent with D and C)
 let mapleader=" "
