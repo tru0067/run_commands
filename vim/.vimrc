@@ -16,6 +16,7 @@ set tabstop=4 softtabstop=4            " Set tabs to 4 spaces
 set shiftwidth=4                       " Allow backspacing up to 4 spaces after a tab
 set expandtab                          " Convert tabs to spaces
 " Visual settings
+" set termguicolors                     " Set the terminal highlighting to use the gui 24 bit colors
 colorscheme dalek
 set number                             " Show line numbers
 set relativenumber                     " Show relative line numbers
@@ -31,7 +32,7 @@ set showcmd                            " Show (partial) commands
 set cmdheight=2                        " Show two lines for the command line
 " Command behaviour
 " set wildmenu                           " Show completion options in the status bar
-set wildmode=longest,list              " Comlete longest matching string, then show available matches
+set wildmode=longest,list              " Complete longest matching string, then show available matches
 set smartcase                          " Search only case sensitive if mixed case has been entered
 set incsearch                          " Incremental search
 set hidden                             " Allow windows to be closed without saving them
