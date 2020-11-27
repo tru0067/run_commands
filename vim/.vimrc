@@ -38,16 +38,17 @@ set hidden                             " Allow windows to be closed without savi
 " Bindings
 map Y y$                               " Y yanks to end of line (consistent with D and C)
 let mapleader=" "
-nnoremap <leader>h :wincmd h<CR>
-nnoremap <leader>j :wincmd j<CR>
-nnoremap <leader>k :wincmd k<CR>
-nnoremap <leader>l :wincmd l<CR>
-nnoremap <leader>f :Lex<CR>
+nnoremap <leader>h :wincmd h<CR>       " Navigate to left window
+nnoremap <leader>j :wincmd j<CR>       " Navigate to lower window
+nnoremap <leader>k :wincmd k<CR>       " Navigate to upper window
+nnoremap <leader>l :wincmd l<CR>       " Navigate to right window
+nnoremap <leader>e :Lex<CR>            " Open file explorer
 nnoremap <silent> <leader>= :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
 " TEMPORARY COLOR DEBUGGER
 nnoremap <leader>c :execute 'hi' synIDattr(synID(line("."), col("."), 1), "name")<CR>
-nnoremap <leader>rc :source ~/.vimrc<CR>
+nnoremap <leader>rce :edit ~/.vimrc<CR>
+nnoremap <leader>rcr :source ~/.vimrc<CR>
 " File explorer
 let g:netrw_browse_split=2             " Open from netrw in new vsplit
 let g:netrw_banner=0                   " Don't show netrw banner (toggle with I)
