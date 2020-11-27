@@ -16,6 +16,7 @@ set tabstop=4 softtabstop=4            " Set tabs to 4 spaces
 set shiftwidth=4                       " Allow backspacing up to 4 spaces after a tab
 set expandtab                          " Convert tabs to spaces
 " Visual settings
+" set termguicolors                     " Set the terminal highlighting to use the gui 24 bit colors
 colorscheme dalek
 set number                             " Show line numbers
 set relativenumber                     " Show relative line numbers

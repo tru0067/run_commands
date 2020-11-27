@@ -13,13 +13,12 @@
     "files.insertFinalNewline": true,
     "[python]": {
         "editor.rulers": [
-            72,
-            79,
+            80
         ],
     },
     "[java]": {
         "editor.rulers": [
-            100,
+            100
         ],
     },
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -30,5 +29,7 @@
                 "settings": {"foreground": "#5E81AC"},
             }
         ]
-    }
+    },
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false
 }
