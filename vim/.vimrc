@@ -12,8 +12,9 @@ set noerrorbells visualbell t_vb=      " No beeps or flashes
 set backspace=indent,eol,start         " Allow backspace to behave as expected
 set clipboard=unnamed                  " Set clipboard to unnamed to access the Windows system clipboard
 set autoindent                         " Allow autoindentation
-set tabstop=4 softtabstop=4            " Set tabs to 4 spaces
-set shiftwidth=4                       " Allow backspacing up to 4 spaces after a tab
+set tabstop=8                          " Display real tabs as 8 spaces
+set softtabstop=4                      " Insert up to 4 spaces when tab is pressed
+set shiftwidth=4                       " Use 4 spaces for autoindentation and for >>, << and ==
 set expandtab                          " Convert tabs to spaces
 " Visual settings
 " set termguicolors                     " Set the terminal highlighting to use the gui 24 bit colors
@@ -36,6 +37,7 @@ set wildmode=longest,list              " Complete longest matching string, then 
 set smartcase                          " Search only case sensitive if mixed case has been entered
 set incsearch                          " Incremental search
 set hidden                             " Allow windows to be closed without saving them
+
 " Bindings
 map Y y$                               " Y yanks to end of line (consistent with D and C)
 let mapleader=" "
@@ -44,14 +46,18 @@ nnoremap <leader>j :wincmd j<CR>       " Navigate to lower window
 nnoremap <leader>k :wincmd k<CR>       " Navigate to upper window
 nnoremap <leader>l :wincmd l<CR>       " Navigate to right window
 nnoremap <leader>e :Lex<CR>            " Open file explorer
-nnoremap <silent> <leader>= :vertical resize +5<CR>
-nnoremap <silent> <leader>- :vertical resize -5<CR>
-" TEMPORARY COLOR DEBUGGER
-nnoremap <leader>c :execute 'hi' synIDattr(synID(line("."), col("."), 1), "name")<CR>
+nnoremap <silent><leader>= :vertical resize +5<CR>
+nnoremap <silent><leader>- :vertical resize -5<CR>
 nnoremap <leader>rce :edit ~/.vimrc<CR>
 nnoremap <leader>rcr :source ~/.vimrc<CR>
+" TEMPORARY COLOR DEBUGGER
+nnoremap <leader>c :execute 'hi' synIDattr(synID(line("."), col("."), 1), "name")<CR>
+
 " File explorer
 let g:netrw_browse_split=2             " Open from netrw in new vsplit
 let g:netrw_banner=0                   " Don't show netrw banner (toggle with I)
 let g:netrw_winsize=25                 " Open netrw with 25% of current buffer
+
+" LaTeX
+let g:tex_flavor="latex"               " Use LaTeX rather than TeX as the default for .tex files
 
