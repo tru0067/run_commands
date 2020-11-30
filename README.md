@@ -1,6 +1,8 @@
 # My run commands and other useful config files
 ##### Bash
 Contains my custom `.abashed` config, as well as some useful snippets for how to get it set up.
+##### Context menu
+Contains scripts for adding various programs to context menus.
 ##### Dalek
 My personal colorscheme.
 ##### Git

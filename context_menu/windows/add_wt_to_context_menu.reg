@@ -1,0 +1,95 @@
+Windows Registry Editor Version 5.00
+
+; Open default windows terminal profile.
+
+[HKEY_CLASSES_ROOT\Directory\shell\wt]
+@="Open in Windows Terminal"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\wt-128.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\wt\command]
+@="wt -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
+@="Open in Windows Terminal"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\wt-128.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wt\command]
+@="wt -d %v"
+
+
+
+; Open cascading menu of different profiles. Only appears on shift + right click.
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles]
+"Extended"=""
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\wt-128.ico"
+"MUIVerb"="Open in Windows Terminal"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell\0cmd]
+"MUIVerb"="Command Prompt"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\cmd-32.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell\0cmd\command]
+@="wt -p \"Command Prompt\" -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell\1powershell]
+"MUIVerb"="Windows Powershell"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\powershell-32.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell\1powershell\command]
+@="wt -p \"Windows Powershell\" -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell\2gitbash]
+"MUIVerb"="Git Bash"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\git-for-windows-128.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell\2gitbash\command]
+@="wt -p \"Git Bash\" -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell\3ubuntu]
+"MUIVerb"="Ubuntu"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\ubuntu-128.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell\3ubuntu\command]
+@="wt -p \"Ubuntu\" -d %v"
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles]
+"Extended"=""
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\wt-128.ico"
+"MUIVerb"="Open in Windows Terminal"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell]
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell\0cmd]
+"MUIVerb"="Command Prompt"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\cmd-32.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell\0cmd\command]
+@="wt -p \"Command Prompt\" -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell\1powershell]
+"MUIVerb"="Windows Powershell"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\powershell-32.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell\1powershell\command]
+@="wt -p \"Windows Powershell\" -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell\2gitbash]
+"MUIVerb"="Git Bash"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\git-for-windows-128.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell\2gitbash\command]
+@="wt -p \"Git Bash\" -d %v"
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell\3ubuntu]
+"MUIVerb"="Ubuntu"
+"Icon"="C:\\Users\\Admin\\Pictures\\icons\\ubuntu-128.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell\3ubuntu\command]
+@="wt -p \"Ubuntu\" -d %v"
+
