@@ -11,6 +11,8 @@ A small collection of icons, for use in my custom context menu entries or simila
 Control -> Escape, Escape -> Caps, Caps -> Control. Likely to be superseded by my new keyboard's config.
 ##### Neovim
 Neovim specific config, such as plugins etc.
+##### Readline
+Very minimal readline config, turning on vi mode and turning off visual bells. 
 ##### Symlink generator
 Some useful scripts for symlinking to all of these useful config files!
 ##### Vim
