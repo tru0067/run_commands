@@ -3,14 +3,14 @@ Windows Registry Editor Version 5.00
 ; Open default windows terminal profile.
 
 [HKEY_CLASSES_ROOT\Directory\shell\wt]
-@="Open in Windows Terminal"
+@="Open with Windows Terminal"
 "Icon"="C:\\Users\\Admin\\Pictures\\icons\\wt-128.ico"
 
 [HKEY_CLASSES_ROOT\Directory\shell\wt\command]
 @="wt -d %v"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
-@="Open in Windows Terminal"
+@="Open with Windows Terminal"
 "Icon"="C:\\Users\\Admin\\Pictures\\icons\\wt-128.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wt\command]
@@ -23,7 +23,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles]
 "Extended"=""
 "Icon"="C:\\Users\\Admin\\Pictures\\icons\\wt-128.ico"
-"MUIVerb"="Open in Windows Terminal"
+"MUIVerb"="Open with Windows Terminal"
 "SubCommands"=""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\wtprofiles\shell]
@@ -60,7 +60,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\shell\wtprofiles]
 "Extended"=""
 "Icon"="C:\\Users\\Admin\\Pictures\\icons\\wt-128.ico"
-"MUIVerb"="Open in Windows Terminal"
+"MUIVerb"="Open with Windows Terminal"
 "SubCommands"=""
 
 [HKEY_CLASSES_ROOT\Directory\shell\wtprofiles\shell]

@@ -1,21 +1,21 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\*\shell\vim]
-@="Edit with Vim"
+@="Open with Vim"
 "Icon"="C:\\Users\\Admin\\Pictures\\icons\\vim-256.ico"
 
 [HKEY_CLASSES_ROOT\*\shell\vim\command]
 @="wt -p \"Git Bash\" -d %w \"C:\\Program Files\\Git\\usr\\bin\\bash.exe\" -i -l -c \"vim '%0' && bash -i -l\""
 
 [HKEY_CLASSES_ROOT\Directory\shell\vim]
-@="Edit with Vim"
+@="Open with Vim"
 "Icon"="C:\\Users\\Admin\\Pictures\\icons\\vim-256.ico"
 
 [HKEY_CLASSES_ROOT\Directory\shell\vim\command]
 @="wt -p \"Git Bash\" -d %v \"C:\\Program Files\\Git\\usr\\bin\\bash.exe\" -i -l -c \"vim && bash -i -l\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\vim]
-@="Edit with Vim"
+@="Open with Vim"
 "Icon"="C:\\Users\\Admin\\Pictures\\icons\\vim-256.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\vim\command]
