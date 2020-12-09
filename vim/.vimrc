@@ -11,6 +11,7 @@ set noerrorbells visualbell t_vb=      " No beeps or flashes
 " Broad behaviour
 set backspace=indent,eol,start         " Allow backspace to behave as expected
 set clipboard=unnamed                  " Set clipboard to unnamed to access the Windows system clipboard
+set mouse=a                            " Allow usage of the mouse
 set autoindent                         " Allow autoindentation
 set tabstop=8                          " Display real tabs as 8 spaces
 set softtabstop=4                      " Insert up to 4 spaces when tab is pressed
@@ -60,4 +61,8 @@ let g:netrw_winsize=25                 " Open netrw with 25% of current buffer
 
 " LaTeX
 let g:tex_flavor="latex"               " Use LaTeX rather than TeX as the default for .tex files
+
+" Open new buffers in insert mode.
+au BufNewFile * startinsert
+au VimEnter * if empty(expand("%")) | startinsert | endif
 

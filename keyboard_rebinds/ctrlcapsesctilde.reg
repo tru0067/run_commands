@@ -5,7 +5,7 @@ Windows Registry Editor Version 5.00
 ; 04,00,00,00,\ number of entries (including null terminator)
 ; 1D,00,3A,00,\ Send LEFT CTRL (0x1D) when pressing CAPS LOCK (0x3A)
 ; 01,00,1D,00,\ Send ESCAPE    (0x01) when pressing LEFT CTRL (0x1D)
-; 3A,00,01,00,\ Send CAPS LOCK (0x3A) when pressing ESCAPE    (0x01)
+; 29,00,01,00,\ Send TILDE     (0x29) when pressing ESCAPE    (0x01)
 ; 00,00,00,00   null terminator
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
@@ -14,5 +14,5 @@ Windows Registry Editor Version 5.00
                    04,00,00,00,\
                    1D,00,3A,00,\
                    01,00,1D,00,\
-                   3A,00,01,00,\
+                   29,00,01,00,\
                    00,00,00,00
