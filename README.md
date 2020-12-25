@@ -1,3 +1,10 @@
+# Now deprecated.
+
+This repository contains a collection of config files that I primarily used while on Windows. I've since migrated my development environment primarily onto linux.
+Instead of needlessly carrying around a lot of Windows-specific files, or trying to maintain a truly cross-platform config set-up, I've migrated the config files that I will continue to use to a new repository (see [here](https://github.com/tru0067/dotfiles)). This old repository will be kept around for posterity (figuring out keyboard rebinds on windows was a lot of fun :D).
+
+---
+
 # My run commands and other useful config files
 ##### Bash
 Contains my custom `.abashed` config, as well as some useful snippets for how to get it set up.
